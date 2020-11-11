@@ -1,0 +1,66 @@
+body{
+  background: url(background.jpg)no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1{
+  color: #C56183;
+  font-family: courier;
+  font-weight: 800;
+  letter-spacing: 5px;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+h2{
+	color: #290001;
+  font-family: Time new romance;
+  font-weight: 400;
+  letter-spacing: 5px;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+a:hover{
+	color: pink;
+	font-size: 25px;
+}
+div{
+	background:#FCDADA;
+	text-align: center;
+	border: 10px solid white;
+	margin: 10px;
+}
+.image{
+	border-radius: 50%;
+}
+.container{
+	width: 700px;
+	margin: 40px auto;
+ }
+@media(max-width: 700px){
+ 	.container{
+ 		width: 500px;
+ 	}
+ }
+@media(max-width: 500px){
+	.container{
+		width: 300px}
+	}
+}
+.section{
+ 	background-color:#060930;
+ 	padding: 30px;
+ 	margin:20px;
+ 	box-shadow: 10px 10px 8px rgba(0,0,0,0.1);
+ 	border-radius: 4px;
+ }
+.footer{
+ 	background-color:#060930;
+ 	box-shadow: 0px -10px 8px rgba(0,0,0,0.1);
+ 	border: 50px
+ } 
+.title{
+	text-align: center;
+}
